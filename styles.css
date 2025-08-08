@@ -2084,3 +2084,32 @@ section {
         grid-template-columns: 1fr;
     }
 }
+@media (max-width: 768px) {
+  .nav-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    display: none;
+    padding: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-link {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+    width: 100%;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
