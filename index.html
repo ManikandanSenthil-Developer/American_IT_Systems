@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American IT Systems Staffing - Fastest Growing Recruitment Firm</title>
+    <meta name="description" content="American IT Systems Staffing - Fastest growing recruitment firm helping clients hire the best quality candidates faster across the globe. IT Consulting, Staffing & Recruitment services.">
+    <meta name="keywords" content="IT staffing, recruitment, consulting, digital transformation, business outsourcing">
+    <link rel="icon" href="TAB_LOGO.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo" style="width: 90px; height: 50px;">
+                <a href="index.html"><img src="https://res.cloudinary.com/dzjfcasrl/image/upload/v1753187786/WhatsApp_Image_2025-07-22_at_17.48.26_7c2207f1-removebg-preview_awfth4.png" alt="LOGO"></a>
+            </div>
+            <div class="nav-menu" id="nav-menu" style="align-items: end;">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="careers.html" class="nav-link">Careers</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Image Slider -->
+    <section class="hero">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Professional IT Team">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Modern Office Technology">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Digital Innovation">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Business Success">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.pexels.com/photos/3182834/pexels-photo-3182834.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" alt="Team Collaboration">
+                <div class="slide-overlay"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="slide-content active" data-slide="0">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">American IT Systems Staffing</span>
+                        <br>Fastest Growing Recruitment Firm
+                    </h1>
+                    <p class="hero-subtitle">
+                        Helping clients hire the best quality candidates faster across the globe. 
+                        We provide services from temporary staffing to management consulting.
+                    </p>
+                </div>
+                <div class="slide-content" data-slide="1">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Expert IT Consulting</span>
+                        <br>Technology Solutions That Drive Growth
+                    </h1>
+                    <p class="hero-subtitle">
+                        Transform your business with cutting-edge technology consulting. 
+                        We help organizations modernize operations and achieve digital excellence.
+                    </p>
+                </div>
+                <div class="slide-content" data-slide="2">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Global Talent Network</span>
+                        <br>Connect With Top-Tier Professionals
+                    </h1>
+                    <p class="hero-subtitle">
+                        Access our worldwide network of exceptional candidates. 
+                        From startups to Fortune 500 companies, we deliver quality talent faster.
+                    </p>
+                </div>
+                <div class="slide-content" data-slide="3">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Digital Transformation</span>
+                        <br>Innovate. Optimize. Succeed.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Navigate the digital landscape with strategic transformation services. 
+                        We help businesses embrace innovation and stay competitive.
+                    </p>
+                </div>
+                <div class="slide-content" data-slide="4">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Partnership Excellence</span>
+                        <br>Your Success Is Our Mission
+                    </h1>
+                    <p class="hero-subtitle">
+                        Building lasting partnerships through exceptional service delivery. 
+                        Join hundreds of satisfied clients who trust us with their growth.
+                    </p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="services.html" class="btn btn-primary">Our Services</a>
+                    <a href="contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn prev" onclick="changeSlide(-1)">&#8249;</button>
+            <button class="slider-btn next" onclick="changeSlide(1)">&#8250;</button>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Core Services</h2>
+                <p>Comprehensive IT solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Consulting Services</h3>
+                    <p>We bring forward advanced analytics capabilities to maximize the potential of your data and help transform your business into a data-first</p>
+                    <a href="services.html" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2M4 18v-6h16v6H4z"/>
+                        </svg>
+                    </div>
+                    <h3>Quality Assurance</h3>
+                    <p>Conducting testing, quality assurance, and quality control processes to ensure the reliability of software solutions.</p>
+                    <a href="services.html" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3>Software Solutions</h3>
+                    <p>we are able to identify and provide you with the best resources that bring with them to make your project a success.</p>
+                    <a href="services.html" class="service-link">Learn More →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>We offer wide range of offerings aimed at leveraging cloud computing technologies to address various business needs</p>
+                    <a href="services.html" class="service-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="content-split">
+                <div class="content-left">
+                    <h2>Why Choose American IT Systems?</h2>
+                    <div class="feature-list">
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Global Talent Network</h4>
+                                <p>Access to qualified candidates worldwide</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Cutting-Edge Technology</h4>
+                                <p>Advanced tools for efficient recruitment</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Rapid Hiring Process</h4>
+                                <p>Faster time-to-hire with quality results</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">✓</div>
+                            <div>
+                                <h4>Industry Expertise</h4>
+                                <p>Specialized in technology and design roles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-right">
+                    <img src="https://images.pexels.com/photos/3184429/pexels-photo-3184429.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Team collaboration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Clients Say</h2>
+                <p>Trusted by startups, SMEs, and corporates worldwide</p>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"American IT Systems helped us scale our development team quickly with exceptional talent. Their recruitment process is efficient and thorough."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Sarah Johnson">
+                            <div>
+                                <h4>Sarah Johnson</h4>
+                                <p>CTO, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Outstanding service! They found us the perfect candidates for our digital transformation project. Highly recommended for any tech hiring needs."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Michael Chen">
+                            <div>
+                                <h4>Michael Chen</h4>
+                                <p>Founder, Digital Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p>"Professional, reliable, and results-driven. American IT Systems delivered quality candidates that perfectly matched our requirements."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop" alt="Emily Rodriguez">
+                            <div>
+                                <h4>Emily Rodriguez</h4>
+                                <p>HR Director, GlobalTech</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" onclick="currentTestimonial(1)"></span>
+                <span class="dot" onclick="currentTestimonial(2)"></span>
+                <span class="dot" onclick="currentTestimonial(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Stats -->
+    <section class="company-stats">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Impact in Numbers</h2>
+                <p>Delivering exceptional results across the globe</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="2500">0</div>
+                    <div class="stat-label">Candidates Placed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="850">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-suffix">%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" width="40" height="40">
+                            <path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <div class="stat-number" data-target="45">0</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Find Your Next Great Hire?</h2>
+                <p>Let us help you build your dream team with top-quality candidates</p>
+                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                        <a href="index.html"><span class="logo-text"><span class="logo-A" style="font-size: 1.5rem; font-weight: 800;">A</span>mericanITSystems</span></a>
+                        <p>Fastest growing recruitment firm helping clients hire the best quality candidates faster across the globe.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Consulting Services</a></li>
+                        <li><a href="services.html">Quality Assurance</a></li>
+                        <li><a href="services.html">Software Solutions</a></li>
+                        <li><a href="services.html">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p>📧 info@americanitsystems.com
+                            hr@americanitsystems.com</p>
+                        <p>📞 +1(615)-416-9989</p>
+                        <p>📍1116 S Walton Blvd, Suite 113
+                            Bentonville, AR 72712.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 American IT Systems Staffing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
